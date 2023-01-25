@@ -1,0 +1,31 @@
+{
+  "name": "gamepricehunterprivate",
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
+  "description": "Axios version Price Hunter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "module": "CommonJS"
+  },
+  "author": "Leeo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "node": "^19.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "ts-node-dev": "^1.1.8"
+  }
+}
