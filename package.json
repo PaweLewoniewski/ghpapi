@@ -8,7 +8,7 @@
   "description": "Axios version Price Hunter",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "compilerOptions": {
     "target": "es5",
